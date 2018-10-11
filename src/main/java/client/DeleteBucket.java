@@ -34,7 +34,7 @@ public class DeleteBucket {
                     break;
                 }
             }
-
+            // list all of buckets version
             VersionListing versionListing = s3.listVersions(new ListVersionsRequest()
                     .withBucketName(bucketName));
 
